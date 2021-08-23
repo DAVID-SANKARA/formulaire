@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+</head>
+<body>
+    <div class="container">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+            <div class="front">
+                <img src="image/login.png" alt="">
+               
+            </div>
+            <div class="back">
+                <img class="backImg" src="image/signup.png" alt="">
+                <div class="text">
+                    <sapn class="text-1">Miles complets de voyage <br> Avec un pas</span>
+                    <sapn class="text-2">Allons-y</span>
+                </div>
+            </div>
+        </div>
+
+        <form action="#">
+           <div class="form-content">
+            <div class="login-form">
+                <div class="title">Connexion</div>
+                <div class="input-boxes">
+                 <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                      <input type="text" placeholder="Entrez votre Email" required>
+                 </div>
+                 <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input type="text" placeholder="Entrez votre mot de passe" required>
+                 </div>
+                 <div class="text sign-up-text"><a href="#">Mot de passe Oublier ?</a></div>
+                 <div class="button input-box">
+                     <input type="submit" value="sumbit">
+                 </div>
+                 <div class="text">Vous N'avez pas de compte? <label for="flip">Inscrivez vous maintenant</label></div>
+                </div>
+            </div>
+            <div class="signup-form">
+                <div class="title">S'inscrire</div>
+                <div class="input-boxes">
+                 <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Entrez votre Nom" required>
+                 </div>
+                 <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Entrez votre Email" required>
+                 </div>
+                 <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input type="text" placeholder="Entrez votre mot de passe" required>
+                 </div>
+                 <div class="button input-box">
+                     <input type="submit" value="sumbit">
+                 </div>
+                 <div class="text sign-up-text">Vous avez deja un compte? <label for="flip">Connectez Vous</label></div>
+                </div>
+            </div>
+
+           </div>
+        </form>
+    </div>
+</body>
+</html>
